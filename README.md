@@ -1,4 +1,4 @@
-# WOR**L**DLE
+# FLA**G**LE
 
 Play this geographical wordle here: https://worldle.teuteuf.fr !
 
