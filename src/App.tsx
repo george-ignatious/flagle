@@ -12,13 +12,10 @@ import { useSettings } from "./hooks/useSettings";
 import { Worldle } from "./components/Worldle";
 import { Stats } from "./components/panels/Stats";
 import { Twemoji } from "@teuteuf/react-emoji-render";
-import { getDayString, useTodays } from "./hooks/useTodays";
+import { getDayString } from "./hooks/useTodays";
 
 export default function App() {
   const { i18n } = useTranslation();
-
-  const dayString = useMemo(getDayString, []);
-
   const [infoOpen, setInfoOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
