@@ -114,32 +114,8 @@ export default function App() {
             <Twemoji
               text="❤️"
               className="flex items-center justify-center mr-1"
-            />{" "}
-            <Worldle />? -
-            {country && supportLink[country.code] != null ? (
-              <a
-                className="underline pl-1"
-                href={supportLink[country.code]}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">{t(`support.${country.code}`)}</div>
-              </a>
-            ) : (
-              <a
-                className="underline pl-1"
-                href="https://www.ko-fi.com/teuteuf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">
-                  <Twemoji
-                    text={t("buyMeACoffee")}
-                    options={{ className: "inline-block" }}
-                  />
-                </div>
-              </a>
-            )}
+            />
+            <Worldle />
           </footer>
         </div>
       </div>

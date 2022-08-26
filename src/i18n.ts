@@ -23,7 +23,7 @@ export const translations = {
         difficultyModifiers: "Difficulty modifiers",
         startingNextDay: "Starting the next day!",
         noImageMode: "Hide country image for more of a challenge.",
-        rotationMode: "Randomly rotate country image.",
+        rotationMode: "Randomly rotate country Flag.",
         updateNotificationDisabled: "Disable update notifications.",
       },
       stats: {
