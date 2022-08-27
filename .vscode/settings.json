@@ -1,5 +1,7 @@
 {
   "i18n-ally.localesPaths": [
     "src"
-  ]
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/14b30ba4-c91d-4e5c-a829-908ba545b20d/microsoft.web/sites/subscriptions/14b30ba4-c91d-4e5c-a829-908ba545b20d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/flaglegame",
+  "appService.deploySubpath": "."
 }
