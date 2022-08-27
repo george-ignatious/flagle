@@ -62,7 +62,7 @@ export function Share({
 
     return [title, guessString, "https://flaglegame.azurewebsites.net/"].join(
       ""
-      );
+    );
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
