@@ -60,7 +60,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://flaglegame.azurewebsites.net/"].join("\r\n");
+    return [title, guessString, "https://flaglegame.azurewebsites.net/"];
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
